@@ -21,7 +21,7 @@ pipeline {
             ], 
             credentialsId: 'nexus3', 
             groupId: 'com.ibm.ta', 
-            nexusUrl: '172.21.138.24:8081', 
+            nexusUrl: '172.21.88.91:8081', 
             nexusVersion: 'nexus3', 
             protocol: 'http', 
             repository: 'webapp-release/', 
